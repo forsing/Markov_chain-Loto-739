@@ -3,9 +3,9 @@ import numpy as np
 import random
 
 
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv'
-# putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv'
-putanja_fajla = '/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv'
+# putanja_fajla = '/data/loto7_4708_k85.csv'
+# putanja_fajla = '/data/loto7_4708_k85_loto_2976.csv'
+putanja_fajla = '/data/loto7_4708_k85_loto_plus_1732.csv'
 
 
 MAX_BROJ = 39
@@ -92,15 +92,15 @@ print()
 print(f"Predloženi tiket: {novi_tiket}")
 print()
 """
-Predloženi tiket: [10, 12, 15, 17, 21, 26, 32]
+Predloženi tiket: [10, x, 15, y, 21, z, 32]
 
 
 
-Predloženi tiket: [1, 3, 6, 8, 12, 17, 23]
+Predloženi tiket: [1, x, 6, y, 12, z, 23]
 
 
 
-Predloženi tiket: [10, 12, 15, 17, 20, 25, 31]
+Predloženi tiket: [10, x, 15, y, 20, z, 31]
 """
 
 
